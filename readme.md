@@ -19,7 +19,7 @@ The Chemical Supplies Manager provides a table to manage details of chemical sup
 
 ## Features
 
-- **Dynamic Table:** Displays details for 15 chemicals with sortable columns.
+- **Dynamic Table:** Displays details for chemicals with sortable columns.
 - **Data Management:** Users can add, move, delete, edit, and save rows.
 - **Sorting:** Click on table headers to sort the data in ascending or descending order.
 - **Progressive Web App (PWA):** Designed to work on mobile and desktop with offline capabilities.
@@ -40,7 +40,9 @@ The Chemical Supplies Manager provides a table to manage details of chemical sup
 - **Add Row**: Use the toolbar to add a new row to the table.
 - **Move Rows**: Use "Move Up" or "Move Down" to adjust row order.
 - **Delete Row**: Select a row and click "Delete" to remove it.
-- **Save Data**: Data is saved in local storage and loaded automatically on page reload.
+- **Reset Data**: Data is loaded back to the default state.
+
+Note: Any changes made to the data are saved automatically in local storage.
 
 ## Design Approach
 
